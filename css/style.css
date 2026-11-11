@@ -1,0 +1,48 @@
+/* Eigene Styles für PawConnect (zusätzlich zu Bootstrap) */
+
+/* Footer bleibt immer unten */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f5f0;
+}
+
+/* Hauptfarbe für Navigation und Buttons */
+.bg-paw {
+    background-color: #2f6f62;
+}
+
+.btn-paw {
+    background-color: #2f6f62;
+    color: white;
+}
+
+.btn-paw:hover {
+    background-color: #24564c;
+    color: white;
+}
+
+/* Begrüßungsbereich auf der Startseite */
+.hero {
+    background-color: #e3efe9;
+    border-radius: 15px;
+    padding: 50px 30px;
+}
+
+/* Alle Fotos in der Tierübersicht gleich hoch */
+.animal-img {
+    height: 220px;
+}
+
+.footer-paw {
+    background-color: #e3efe9;
+    color: #2f6f62;
+}
+
+/* Auf kleinen Bildschirmen weniger Abstand */
+@media only screen and (max-width: 600px) {
+    .hero {
+        padding: 30px 15px;
+    }
+}
